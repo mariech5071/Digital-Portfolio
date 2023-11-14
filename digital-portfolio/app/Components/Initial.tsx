@@ -1,11 +1,15 @@
-import React from 'react';
-
 const Initial = () => {
     return (
-        <div id='inicial' className="h-96 w-full  bg-sky-200">
-            <div className="h-full w-full bg-[url('/images/background.png')]">
-                <div className='font-bold text-4xl p-6'>Hi I'm Mari</div>
-            </div>
+        <div id='inicial' className="h-[90vh] w-full bg-sky-100 flex items-center justify-center">
+            <div className='grid grid-cols-2 gap-4 content-center justify-center items-center'>
+                <div>
+                    <h1 className='font-bold text-7xl p-6 ml-9 '>Hi, I'm Mari</h1>
+                    <p className='p-6 ml-9'>Front end programmer seeking to create the best web pages for companies. iwevbpwiehbpwihdcwih wpifvhbvwpifvbpwiufvbpifvbpwidfuvb.</p>
+                </div>
+                <div>
+                    <img src='/images/Profile.jpeg' className='rounded-full w-2/3 z-10 mt-4'></img>
+                </div>
+            </div> 
         </div>
     )
 }
