@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         'custom-orange': 'rgb(237,196,166)',
         'custom-orange-light': 'rgba(252,224,200,255)',
+        'custom-orange-lighter': 'rgb(252,244,236)',
       },
     },
   },

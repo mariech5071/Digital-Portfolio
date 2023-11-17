@@ -39,42 +39,48 @@ const Projects = () => {
     }, []);
 
     return (
-        <div id='projects' className='bg-custom-orange-light h-auto flex justify-center items-center flex-col'>
+        <div id='projects' className='bg-custom-orange-lighter h-screen flex justify-center items-center flex-col'>
             <motion.h1 className='mx-auto text-center mb-4 pt-6' initial={{ y: '100vh' }} animate={{ y: inView ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
                 Projects
             </motion.h1>
             <div className="flex flex-col sm:flex-row sm:space-x-20 justify-center items-center space-y-8 sm:space-y-0 pb-6">
                 <div className="w-full sm:w-1/2 xl:w-1/4" id='img1'>
-                <motion.img  whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-36 object-contain mx-auto rounded-1g" initial={{ y: '100vh' }} animate={{ y: inView1 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
+                <motion.img  whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-1g" initial={{ y: '100vh' }} animate={{ y: inView1 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
                     <div className="flex items-center justify-between">
-                        <p className="font-medium">Here is project 1</p>
-                        <button className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+                    <motion.p className="font-medium mt-3" initial={{ y: '100vh' }} animate={{ y: inView1 ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
+                    Here is project 1
+                    </motion.p>
+                        <motion.button className="w-8 h-8 bg-white rounded-full flex items-center justify-center" initial={{ y: '100vh' }} animate={{ y: inView1 ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" className="w-4 h-4">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                             </svg>
-                        </button>
+                        </motion.button>
                     </div>
                 </div>
                 <div className="w-full sm:w-1/2 xl:w-1/4" id='img2'>
-                <motion.img whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-36 object-contain mx-auto rounded-1g" initial={{ y: '100vh' }} animate={{ y: inView2 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
+                <motion.img whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-1g" initial={{ y: '100vh' }} animate={{ y: inView2 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
                     <div className="flex items-center justify-between">
-                        <p className="font-medium">Here is project 2</p>
-                        <button className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+                    <motion.p className="font-medium mt-3" initial={{ y: '100vh' }} animate={{ y: inView2 ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
+                    Here is project 1
+                    </motion.p>
+                        <motion.button className="w-8 h-8 bg-white rounded-full flex items-center justify-center" initial={{ y: '100vh' }} animate={{ y: inView2 ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" className="w-4 h-4">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                             </svg>
-                        </button>
+                        </motion.button>
                     </div>
                 </div>
                 <div className="w-full sm:w-1/2 xl:w-1/4" id='img3'>
-                <motion.img whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-36 object-contain mx-auto rounded-1g" initial={{ y: '100vh' }} animate={{ y: inView3 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
+                <motion.img whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-1g" initial={{ y: '100vh' }} animate={{ y: inView3 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
                     <div className="flex items-center justify-between">
-                        <p className="font-medium">Here is project 3</p>
-                        <button className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+                    <motion.p className="font-medium mt-3" initial={{ y: '100vh' }} animate={{ y: inView3 ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
+                    Here is project 1
+                    </motion.p>
+                        <motion.button className="w-8 h-8 bg-white rounded-full flex items-center justify-center" initial={{ y: '100vh' }} animate={{ y: inView3 ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" className="w-4 h-4">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                             </svg>
-                        </button>
+                        </motion.button>
                     </div>
                 </div>
             </div>

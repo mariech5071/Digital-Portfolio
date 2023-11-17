@@ -20,11 +20,8 @@ const Contact: FC = () => {
     sendEmail(data);
   }
   return (
-    <div id='contact'>
-      <br></br>
-      <br></br>
-      <br></br>
-      <div className='bg-custom-orange-light grid grid-cols-1 lg:grid-cols-2 p-3'>
+    <div id='contact' className='h-screen'>
+      <div className='bg-custom-orange-lighter grid grid-cols-1 lg:grid-cols-2 p-3'>
         <div className=' pt-5  text-black flex flex-col items-center lg:items-left justify-center'>
           <h1 className='text-4xl font-bold pb-3'>Want to work with me?</h1>
           <p className='font-bold'>marianaecheverria5071@gmail.com.com</p>
