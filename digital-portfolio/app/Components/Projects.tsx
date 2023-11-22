@@ -39,7 +39,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <div id='projects' className='bg-custom-orange-lighter h-screen flex justify-center items-center flex-col'>
+        <div id='projects' className='bg-custom-orange-lighter min-h-screen flex justify-center items-center flex-col'>
             <motion.h1 className='mx-auto text-center mb-4 pt-6' initial={{ y: '100vh' }} animate={{ y: inView ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
                 Projects
             </motion.h1>
