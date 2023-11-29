@@ -13,7 +13,7 @@ export type FormData = {
 };
 
 //This is the Contact component, when Contact is clicked it will bring you to this part where there is a form to contact the business.
-const Contact: FC = () => {
+const Contact1: FC = () => {
   const { register, handleSubmit } = useForm<FormData>();
 
   function onSubmit(data: FormData) {
@@ -53,4 +53,4 @@ const Contact: FC = () => {
   )
 };
 
-export default Contact;
+export default Contact1;

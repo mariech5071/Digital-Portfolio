@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
-const About = () => {
+const About1 = () => {
     const [inView, setInView] = useState(false);
     let lastScrollTop = 0;
 
@@ -40,4 +40,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default About1;

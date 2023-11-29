@@ -29,10 +29,12 @@ const Navbar = () => {
                     <div className='flex items-center justify-between h-16'>
                         <div className='hidden md:block'>
                             <div className='ml-4 flex items-center space-x-4'>
-                                <a href='#initial' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Home</a>
-                                <a href='#about' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>About</a>
-                                <a href='#projcts' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Projects</a>
-                                <a href='#contact' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Contact</a>
+                                <a href='/' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Home</a>
+                                <a href='/About' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>About</a>
+                                <a href='/Projects' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Projects</a>
+                                <a href='/Contact' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Contact</a>
+                                <a href='/Experience' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Experience</a>
+
                             </div>
                         </div>
                         <div>
@@ -79,9 +81,10 @@ const Navbar = () => {
                     <div className='md:hidden'>
                         <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
                             <a href='#initial' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Home</a>
-                            <a href='#about' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>About</a>
-                            <a href='#projcts' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Projects</a>
+                            <a href='/About' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>About</a>
+                            <a href='/Projects' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Projects</a>
                             <a href='#contact' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Contact</a>
+                            <a href='/Experience' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Experience</a>
                         </div>
                     </div>
                 )}

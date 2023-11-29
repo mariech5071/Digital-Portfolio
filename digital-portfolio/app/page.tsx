@@ -1,22 +1,30 @@
-'use client';
-import Navbar from "./Components/Navbar"
-import Initial from "./Components/Initial"
-import About from "./Components/About"
-import Projects from "./Components/Projects"
-import Contact from "./Components/Contact"
-import Experience from "./Components/Experience";
+'use client'
+import { BrowserRouter as Router, Link } from 'react-router-dom';
+import Navbar from "../Components/Navbar"
+import Initial from "../Components/Initial"
+import About1 from "../Components/About1"
+import Projects from "../Components/Projects1"
+import Contact from "../Components/Contact1"
+import Experience1 from "../Components/Experience1";
 import 'bootstrap/dist/css/bootstrap.css'
 
 export default function Home() {
   return (
-   <>
-    <Navbar></Navbar>
-    <Initial></Initial>
-    <About></About>
-    <Projects></Projects>
-    <Experience></Experience>
-    <Contact></Contact>
-  </>
+    <Router>
+      <>
+        <Navbar></Navbar>
+        <Initial></Initial>
+        <About1></About1>
+        <Projects></Projects>
+        <Experience1></Experience1>
+        <Contact></Contact>
+        <Link to="/About"></Link>
+        <Link to="/Projects"></Link>
+        <Link to="/Experience"></Link>
+        <Link to="/Contact"></Link>
+        <Link to="/"></Link>
+      </>
+    </Router>
   )
 }
 

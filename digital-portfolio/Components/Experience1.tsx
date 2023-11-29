@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Experience = () => {
+const Experience1 = () => {
     return (
         <div className='min-h-screen flex'>
             <div className='w-1/3 flex flex-col items-center justify-center min-h-screen'>
@@ -45,4 +45,4 @@ const Experience = () => {
     );
 };
 
-export default Experience;
+export default Experience1;

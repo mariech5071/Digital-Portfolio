@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 
 
-const Projects = () => {
+const Projects1 = () => {
     const [inView, setInView] = useState(false);
     const [inView1, setInView1] = useState(false);
     const [inView2, setInView2] = useState(false);
@@ -88,4 +88,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default Projects1;
