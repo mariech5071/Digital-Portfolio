@@ -5,6 +5,7 @@ import { FC } from 'react';
 import { useForm } from 'react-hook-form';
 import { sendEmail } from '@/utils/send-email';
 import Navbar from "@/Components/Navbar";
+import { motion } from 'framer-motion';
 
 export type FormData = {
   name: string;
@@ -23,7 +24,7 @@ const Contact: FC = () => {
   return (
     <div>
         <Navbar></Navbar>
-        <div id='contact' className='min-h-screen'>
+        <motion.div id='contact' className='min-h-screen' initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}>
         <div className='bg-custom-orange-lighter grid grid-cols-1 lg:grid-cols-2 p-3 min-h-screen'>
             <div className=' pt-5  text-black flex flex-col items-center lg:items-left justify-center'>
             <h1 className='text-4xl font-bold pb-3'>Want to work with me?</h1>
@@ -52,7 +53,7 @@ const Contact: FC = () => {
             </form>
             </div>
         </div>
-        </div>
+        </motion.div>
     </div>
   )
 };
