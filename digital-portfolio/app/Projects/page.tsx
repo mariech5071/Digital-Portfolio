@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Navbar from "../../Components/Navbar"
+import Footer from '@/Components/Footer';
 
 
 
@@ -48,10 +49,10 @@ const Projects = () => {
                         Projects
                     </motion.h1>
                 </div>
-                <div id='projects' className='bg-custom-orange-lighter h-96 flex justify-center items-center flex-col'>
+                <div id='projects' className='bg-custom-orange-lighter min-h-screen flex justify-center items-center flex-col'>
                 <div className="flex flex-col sm:flex-row sm:space-x-20 justify-center items-center space-y-8 sm:space-y-0 pb-3">
                     <div className="w-full sm:w-1/2 xl:w-1/4" id='img1'>
-                    <motion.img  whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-1g" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }} />
+                    <motion.img  whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg md:mt-0 mt-10" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }} />
                         <div className="flex items-center justify-between">
                         <motion.p className="font-medium mt-3" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}>
                         Here is project 1
@@ -64,7 +65,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="w-full sm:w-1/2 xl:w-1/4" id='img2'>
-                    <motion.img whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-1g" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }} />
+                    <motion.img whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }} />
                         <div className="flex items-center justify-between">
                         <motion.p className="font-medium mt-3" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}>
                         Here is project 1
@@ -77,7 +78,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="w-full sm:w-1/2 xl:w-1/4" id='img3'>
-                    <motion.img whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-1g" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}/>
+                    <motion.img whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}/>
                         <div className="flex items-center justify-between">
                         <motion.p className="font-medium mt-3" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}>
                         Here is project 1
@@ -91,6 +92,27 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <div className="w-5/6 mx-auto">
+                <div className=' block m-auto lg:flex lg:items-center lg:justify-between text-center py-4'>
+                    <div className="flex items-center space-x-4 justify-center">
+                        <a href="/" className="text-black hover:bg-white hover:text-black rounded-lg no-underline">Home</a>
+                        <a href="/About" className="text-black hover:bg-white hover:text-black rounded-lg no-underline">About</a>
+                        <a href="/Projects" className="text-black hover:bg-white hover:text-black rounded-lg no-underline">Projects</a>
+                        <a href="/Contact" className="text-black hover:bg-white hover:text-black rounded-lg no-underline">Contact</a>
+                        <a href="/Experience" className="text-black hover:bg-white hover:text-black rounded-lg no-underline">Experience</a>
+                    </div>
+                    <p className='pt-3 text-center'>Phone: +506 83205021 | Email: marianaecheverria5071@gmail.com</p>
+                </div>
+                <hr className="border-black" />
+                <div className='block m-auto lg:flex items-center lg:justify-between py-4'>
+                    <p className='text-center'>Mariana Echeverria</p>
+                    <p className='text-center'>Copyright © 2023 Mariana Echeverria. All rights reserved</p>
+                    <div className='flex items-center justify-center space-x-4 '>
+                        <img className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo" />
+                        <img className='h-6 mb-2' src="images/github.png" alt="LinkedIn Logo" />
+                    </div>
+                </div>
+        </div>
         </div>
     )
 }

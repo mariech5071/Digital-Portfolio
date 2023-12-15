@@ -29,12 +29,11 @@ const Navbar = () => {
                     <div className='flex items-center justify-between h-16'>
                         <div className='hidden md:block'>
                             <div className='ml-4 flex items-center space-x-4'>
-                                <a href='/' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Home</a>
-                                <a href='/About' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>About</a>
-                                <a href='/Projects' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Projects</a>
-                                <a href='/Contact' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Contact</a>
-                                <a href='/Experience' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Experience</a>
-
+                                <a href='/' className='text-black hover:bg-white hover:text-black rounded-lg p-2 no-underline'>Home</a>
+                                <a href='/About' className='text-black hover:bg-white hover:text-black rounded-lg p-2 no-underline'>About</a>
+                                <a href='/Projects' className='text-black hover:bg-white hover:text-black rounded-lg p-2 no-underline'>Projects</a>
+                                <a href='/Experience' className='text-black hover:bg-white hover:text-black rounded-lg p-2 no-underline'>Experience</a>
+                                <a href='/Contact' className='text-black hover:bg-white hover:text-black rounded-lg p-2 no-underline'>Contact</a>
                             </div>
                         </div>
                         <div>
@@ -83,8 +82,8 @@ const Navbar = () => {
                             <a href='#initial' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Home</a>
                             <a href='/About' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>About</a>
                             <a href='/Projects' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Projects</a>
-                            <a href='#contact' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Contact</a>
                             <a href='/Experience' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Experience</a>
+                            <a href='#contact' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Contact</a>
                         </div>
                     </div>
                 )}

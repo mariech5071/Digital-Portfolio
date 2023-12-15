@@ -3,11 +3,11 @@ import React from 'react';
 const Experience1 = () => {
     return (
         <div className='min-h-screen flex'>
-            <div className='w-1/3 flex flex-col items-center justify-center min-h-screen'>
-                    <h1 className='text-center mb-4'>Education and Experience</h1>
-                    <button className='bg-custom-orange-light rounded-full border-black p-2 px-4'>My Curriculum</button>
+            <div className='w-1/3 min-h-screen sm:block hidden m-auto'>
+                        <h1 className='text-center mb-4 text-4xl'>Education and Experience</h1>
+                        <button className='bg-custom-orange-light rounded-full border-black p-2 px-4 w-full'>My Curriculum</button>
                 </div>
-                <div className="w-2/3 flex flex-col min-h-screen">
+                <div className="w-full sm:w-2/3 flex flex-col min-h-screen">
                     <div className="flex items-center">
                         <p className="font-bold mt-4">Jan 2023 - Set 2023</p>
                         <div className="pl-5">
@@ -24,6 +24,13 @@ const Experience1 = () => {
                         <span className='mt-2'>Online Programming Learning</span>
                     </div>
                     <p className='ml-48 px-3 border-l border-black'>I've acquired fundamental knowledge crucial for crafting exceptional web pages and working as a web developer through accessible online courses on FreeCodeAcademy and Udemy. This has led to the creation of several business landing pages using React and Next.js, along with personal projects integrating APIs. Proficiently managed tools include:</p>
+                    <div className="flex justify-center space-x-4">
+                        <img src="/images/reactjs.png" alt="ReactJS" className="w-10 h-10 object-contain" />
+                        <img src="/images/nextjs.png" alt="NextJS" className="w-10 h-10 object-contain" />
+                        <img src="/images/tailwindcss.png" alt="Tailwindcss" className="h-10 object-contain" />
+                        <img src="/images/javascript.png" alt="Javascript" className="w-10 h-10 object-contain" />
+                        <img src="/images/css.png" alt="CSS" className="w-10 h-10 object-contain" />
+                    </div>
                     <div className="flex items-center">
                         <p className="font-bold mt-4">Jun 2022 - Dec 2022</p>
                         <div className="pl-5">
@@ -47,7 +54,7 @@ const Experience1 = () => {
                         </div>
                         <span className='mt-2'>Biotechnology Engineering (Tecnológico de Costa Rica)</span>
                     </div>
-                    <p className='ml-48 px-3 border-l border-black'>Graduating with a degree in Biotechnology Engineering, I acquired a robust foundation in biology, technology, and engineering. Proficiency in data analysis, experimentation, and adaptive problem-solving was honed through rigorous scientific methodologies. Possessing a strong grasp of programming languages and automation techniques vital for biotechnology and software engineering, I combine analytical thinking from biotech with creative problem-solving skills, facilitating versatile approaches to complex challenges in ever-evolving tech landscapes.</p>
+                    <p className='ml-48 px-3 border-l border-black mb-8'>Graduating with a degree in Biotechnology Engineering, I acquired a robust foundation in biology, technology, and engineering. Proficiency in data analysis, experimentation, and adaptive problem-solving was honed through rigorous scientific methodologies. Possessing a strong grasp of programming languages and automation techniques vital for biotechnology and software engineering, I combine analytical thinking from biotech with creative problem-solving skills, facilitating versatile approaches to complex challenges in ever-evolving tech landscapes.</p>
                 </div>
         </div>
     );
