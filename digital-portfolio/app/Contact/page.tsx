@@ -48,7 +48,7 @@ const Contact: FC = () => {
                 <input className=' border border-gray-400 rounded-md hover:bg-slate-200' required type='email' id='email' {...register('email', { required: true })}></input>
                 </div>
                 <div className='w-full flex flex-col'>
-                <label htmlFor='country'>Country</label>
+                <label htmlFor='country'>Company</label>
                 <input className=' border border-gray-400 rounded-md hover:bg-slate-200' type='text' id='country' {...register('country', { required: true })}></input>
                 </div>
                 <div className='w-full flex flex-col'>
