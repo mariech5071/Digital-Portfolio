@@ -45,7 +45,7 @@ const Projects1 = () => {
             </motion.h1>
             <div className="flex flex-col sm:flex-row sm:space-x-20 justify-center items-center space-y-8 sm:space-y-0 pb-6">
                 <div className="w-full sm:w-1/2 xl:w-1/4" id='img1'>
-                <motion.img  whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg" initial={{ y: '100vh' }} animate={{ y: inView1 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
+                <motion.img  whileHover={{ scale: 1.1 }} src="/images/Arcane-studio.png" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg" initial={{ y: '100vh' }} animate={{ y: inView1 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
                     <div className="flex items-center justify-between">
                     <motion.p className="font-medium mt-3" initial={{ y: '100vh' }} animate={{ y: inView1 ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
                     Here is project 1
@@ -58,7 +58,7 @@ const Projects1 = () => {
                     </div>
                 </div>
                 <div className="w-full sm:w-1/2 xl:w-1/4" id='img2'>
-                <motion.img whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg" initial={{ y: '100vh' }} animate={{ y: inView2 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
+                <motion.img whileHover={{ scale: 1.1 }} src="/images/Arcane-studio.png" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg" initial={{ y: '100vh' }} animate={{ y: inView2 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
                     <div className="flex items-center justify-between">
                     <motion.p className="font-medium mt-3" initial={{ y: '100vh' }} animate={{ y: inView2 ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
                     Here is project 1
@@ -71,7 +71,7 @@ const Projects1 = () => {
                     </div>
                 </div>
                 <div className="w-full sm:w-1/2 xl:w-1/4" id='img3'>
-                <motion.img whileHover={{ scale: 1.1 }} src="/images/project1.jpg" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg" initial={{ y: '100vh' }} animate={{ y: inView3 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
+                <motion.img whileHover={{ scale: 1.1 }} src="/images/Arcane-studio.png" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg" initial={{ y: '100vh' }} animate={{ y: inView3 ? 0 : '100vh' }} transition={{ duration: 0.5 }} />
                     <div className="flex items-center justify-between">
                     <motion.p className="font-medium mt-3" initial={{ y: '100vh' }} animate={{ y: inView3 ? 0 : '100vh' }} transition={{ duration: 0.5 }}>
                     Here is project 1

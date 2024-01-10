@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const About1 = () => {
     const [inView, setInView] = useState(false);
@@ -26,7 +27,7 @@ const About1 = () => {
     return (
         <div id='about' className='min-h-screen flex flex-col sm:flex-row justify-center items-center py-4'>
             <motion.div id='firstDiv' className='w-full sm:w-1/2 p-4 order-last sm:order-first' initial={{ x: '-100vw' }} animate={{ x: inView ? 0 : '-100vw' }} transition={{ duration: 0.5 }}>
-                <img src="/images/Profile.png" alt="About" className="h-80 rounded-lg mx-auto" />
+                <Image src="/images/Profile.png" alt="About" className="h-80 rounded-lg mx-auto" />
             </motion.div>
             <motion.div className='w-full sm:w-1/2 p-4' initial={{ x: '100vw' }} animate={{ x: inView ? 0 : '100vw' }} transition={{ duration: 0.5 }}>
                 <h1 className='text-center mb-4'>About</h1>

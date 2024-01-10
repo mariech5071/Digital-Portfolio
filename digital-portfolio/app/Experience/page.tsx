@@ -3,6 +3,7 @@ import React from 'react';
 import Navbar from "../../Components/Navbar"
 import { motion } from 'framer-motion';
 import Footer from '@/Components/Footer';
+import Image from 'next/image';
 
 const Experience = () => {
     return (
@@ -26,7 +27,7 @@ const Experience = () => {
                         </div>    
                         <span className='mt-2'>Intensa Language Institute</span>
                     </div>
-                    <p className='ml-48 px-3 border-l border-black'> With a background in teaching English to diverse students in both physical and online classrooms, I've refined my capacity to articulate intricate concepts for varied audiences. Managing diverse student cohorts has equipped me with adaptability and interpersonal skills, vital for collaborating in multidisciplinary programming teams, fostering effective communication, and streamlining workflow efficiency.</p>
+                    <p className='ml-48 px-3 border-l border-black'> With a background in teaching English to diverse students in both physical and online classrooms, I&apos;ve refined my capacity to articulate intricate concepts for varied audiences. Managing diverse student cohorts has equipped me with adaptability and interpersonal skills, vital for collaborating in multidisciplinary programming teams, fostering effective communication, and streamlining workflow efficiency.</p>
                     <div className="flex items-center">
                         <p className="font-bold mt-4">Jan 2022    -  Present</p>
                         <div className="pl-5">
@@ -34,7 +35,7 @@ const Experience = () => {
                         </div>
                         <span className='mt-2'>Online Programming Learning</span>
                     </div>
-                    <p className='ml-48 px-3 border-l border-black'>I've acquired fundamental knowledge crucial for crafting exceptional web pages and working as a web developer through accessible online courses on FreeCodeAcademy and Udemy. This has led to the creation of several business landing pages using React and Next.js, along with personal projects integrating APIs. Proficiently managed tools include:</p>
+                    <p className='ml-48 px-3 border-l border-black'>I&apos;ve acquired fundamental knowledge crucial for crafting exceptional web pages and working as a web developer through accessible online courses on FreeCodeAcademy and Udemy. This has led to the creation of several business landing pages using React and Next.js, along with personal projects integrating APIs. Proficiently managed tools include:</p>
                     <div className="flex items-center">
                         <p className="font-bold mt-4">Jun 2022 - Dec 2022</p>
                         <div className="pl-5">
@@ -78,8 +79,8 @@ const Experience = () => {
                     <p className='text-center'>Mariana Echeverria</p>
                     <p className='text-center'>Copyright © 2023 Mariana Echeverria. All rights reserved</p>
                     <div className='flex items-center justify-center space-x-4 '>
-                        <img className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo" />
-                        <img className='h-6 mb-2' src="images/github.png" alt="LinkedIn Logo" />
+                        <Image className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo" />
+                        <Image className='h-6 mb-2' src="images/github.png" alt="LinkedIn Logo" />
                     </div>
                 </div>
         </div>

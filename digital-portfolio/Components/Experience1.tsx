@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Experience1 = () => {
     return (
@@ -15,7 +16,7 @@ const Experience1 = () => {
                         </div>    
                         <span className='mt-2'>Intensa Language Institute</span>
                     </div>
-                    <p className='ml-48 px-3 border-l border-black'> With a background in teaching English to diverse students in both physical and online classrooms, I've refined my capacity to articulate intricate concepts for varied audiences. Managing diverse student cohorts has equipped me with adaptability and interpersonal skills, vital for collaborating in multidisciplinary programming teams, fostering effective communication, and streamlining workflow efficiency.</p>
+                    <p className='ml-48 px-3 border-l border-black'> With a background in teaching English to diverse students in both physical and online classrooms, I&apos;ve refined my capacity to articulate intricate concepts for varied audiences. Managing diverse student cohorts has equipped me with adaptability and interpersonal skills, vital for collaborating in multidisciplinary programming teams, fostering effective communication, and streamlining workflow efficiency.</p>
                     <div className="flex items-center">
                         <p className="font-bold mt-4">Jan 2022    -  Present</p>
                         <div className="pl-5">
@@ -23,13 +24,13 @@ const Experience1 = () => {
                         </div>
                         <span className='mt-2'>Online Programming Learning</span>
                     </div>
-                    <p className='ml-48 px-3 border-l border-black'>I've acquired fundamental knowledge crucial for crafting exceptional web pages and working as a web developer through accessible online courses on FreeCodeAcademy and Udemy. This has led to the creation of several business landing pages using React and Next.js, along with personal projects integrating APIs. Proficiently managed tools include:</p>
+                    <p className='ml-48 px-3 border-l border-black'>I&apos;ve acquired fundamental knowledge crucial for crafting exceptional web pages and working as a web developer through accessible online courses on FreeCodeAcademy and Udemy. This has led to the creation of several business landing pages using React and Next.js, along with personal projects integrating APIs. Proficiently managed tools include:</p>
                     <div className="flex justify-center space-x-4">
-                        <img src="/images/reactjs.png" alt="ReactJS" className="w-10 h-10 object-contain" />
-                        <img src="/images/nextjs.png" alt="NextJS" className="w-10 h-10 object-contain" />
-                        <img src="/images/tailwindcss.png" alt="Tailwindcss" className="h-10 object-contain" />
-                        <img src="/images/javascript.png" alt="Javascript" className="w-10 h-10 object-contain" />
-                        <img src="/images/css.png" alt="CSS" className="w-10 h-10 object-contain" />
+                        <Image src="/images/reactjs.png" alt="ReactJS" className="w-10 h-10 object-contain" />
+                        <Image src="/images/nextjs.png" alt="NextJS" className="w-10 h-10 object-contain" />
+                        <Image src="/images/tailwindcss.png" alt="Tailwindcss" className="h-10 object-contain" />
+                        <Image src="/images/javascript.png" alt="Javascript" className="w-10 h-10 object-contain" />
+                        <Image src="/images/css.png" alt="CSS" className="w-10 h-10 object-contain" />
                     </div>
                     <div className="flex items-center">
                         <p className="font-bold mt-4">Jun 2022 - Dec 2022</p>

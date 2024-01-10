@@ -7,6 +7,7 @@ import { sendEmail } from '@/utils/send-email';
 import Navbar from "@/Components/Navbar";
 import { motion } from 'framer-motion';
 import Footer from "@/Components/Footer";
+import Image from 'next/image';
 
 export type FormData = {
   name: string;
@@ -76,8 +77,8 @@ const Contact: FC = () => {
                     <p className='text-center'>Mariana Echeverria</p>
                     <p className='text-center'>Copyright © 2023 Mariana Echeverria. All rights reserved</p>
                     <div className='flex items-center justify-center space-x-4 '>
-                        <img className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo" />
-                        <img className='h-6 mb-2' src="images/github.png" alt="LinkedIn Logo" />
+                        <Image className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo" />
+                        <Image className='h-6 mb-2' src="images/github.png" alt="LinkedIn Logo" />
                     </div>
                 </div>
         </div>
