@@ -11,6 +11,7 @@ const Projects1 = () => {
     const [inView3, setInView3] = useState(false);
 
     const handleScroll = () => {
+        if (typeof document !== 'undefined') {
         const divElement = document.getElementById('projects');
         const imgElement1 = document.getElementById('img1');
         const imgElement2 = document.getElementById('img2');
@@ -28,6 +29,7 @@ const Projects1 = () => {
             setInView1(isInView1);
             setInView2(isInView2);
             setInView3(isInView3);
+        }
         }
     };
 
