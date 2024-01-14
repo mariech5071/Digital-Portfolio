@@ -1,12 +1,10 @@
 'use client';
 
-import React from "react";
 import { FC } from 'react';
 import { useForm } from 'react-hook-form';
 import { sendEmail } from '@/utils/send-email';
 import Navbar from "@/Components/Navbar";
 import { motion } from 'framer-motion';
-import Footer from "@/Components/Footer";
 import Image from 'next/image';
 
 export type FormData = {

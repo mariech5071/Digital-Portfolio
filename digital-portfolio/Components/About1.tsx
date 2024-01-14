@@ -1,12 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useRef } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 const About1 = () => {
     const [inView, setInView] = useState(false);
-    let lastScrollTop = 0;
+    
+    
 
     useEffect(() => {
+        let lastScrollTop = 0;
         const handleScroll = () => {
             const firstDivElement = document.getElementById('firstDiv');
             if (firstDivElement) {

@@ -1,8 +1,6 @@
 'use client'
-import React from 'react';
 import Navbar from "../../Components/Navbar"
 import { motion } from 'framer-motion';
-import Footer from '@/Components/Footer';
 import Image from 'next/image';
 
 const Experience = () => {
