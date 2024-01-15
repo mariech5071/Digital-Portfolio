@@ -79,11 +79,11 @@ const Navbar = () => {
                 {isClicked && (
                     <div className='md:hidden'>
                         <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                            <a href='#initial' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Home</a>
+                            <a href='/' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Home</a>
                             <a href='/About' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>About</a>
                             <a href='/Projects' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Projects</a>
                             <a href='/Experience' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Experience</a>
-                            <a href='#contact' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Contact</a>
+                            <a href='/contact' className='text-black block hover:bg-white hover:text-black rounded-lg p-2'>Contact</a>
                         </div>
                     </div>
                 )}
