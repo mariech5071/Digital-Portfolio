@@ -77,7 +77,7 @@ const Experience = () => {
                     <p className='text-center'>Mariana Echeverria</p>
                     <p className='text-center'>Copyright © 2023 Mariana Echeverria. All rights reserved</p>
                     <div className='flex items-center justify-center space-x-4 '>
-                        <Image className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo" />
+                        <Image className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo"  width='200' height='200'/>
                         <Image className='h-6 mb-2' src="images/github.png" alt="LinkedIn Logo" />
                     </div>
                 </div>

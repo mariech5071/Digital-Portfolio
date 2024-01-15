@@ -6,7 +6,7 @@ const About1 = () => {
     return (
         <div id='about' className='min-h-screen flex flex-col sm:flex-row justify-center items-center py-4'>
             <div id='firstDiv' className='w-full sm:w-1/2 p-4 order-last sm:order-first'>
-                <Image src="/images/Profile.png" alt="About" className="h-80 rounded-lg mx-auto" />
+                <Image src="/images/Profile.png" alt="About" className="h-80 rounded-lg mx-auto" width='200' height='200'/>
             </div>
             <div className='w-full sm:w-1/2 p-4'>
                 <h1 className='text-center mb-4'>About</h1>

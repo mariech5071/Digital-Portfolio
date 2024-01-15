@@ -1,5 +1,5 @@
 'use client'
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import Link from 'next/link'
 import Navbar from "../Components/Navbar"
 import Initial from "../Components/Initial"
 import About1 from "../Components/About1"
@@ -11,7 +11,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 export default function Home() {
   return (
-    <Router>
       <>
         <Navbar></Navbar>
         <Initial></Initial>
@@ -20,13 +19,13 @@ export default function Home() {
         <Experience1></Experience1>
         <Contact></Contact>
         <Footer></Footer>
-        <Link to="/About"></Link>
-        <Link to="/Projects"></Link>
-        <Link to="/Experience"></Link>
-        <Link to="/Contact"></Link>
-        <Link to="/"></Link>
+        <Link href="/About"></Link>
+        <Link href="/Projects"></Link>
+        <Link href="/Experience"></Link>
+        <Link href="/Contact"></Link>
+        <Link href="/"></Link>
       </>
-    </Router>
+    
   )
 }
 

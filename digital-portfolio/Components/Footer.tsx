@@ -19,8 +19,8 @@ const Footer = () => {
                     <p className='text-center'>Mariana Echeverria</p>
                     <p className='text-center'>Copyright © 2023 Mariana Echeverria. All rights reserved</p>
                     <div className='flex items-center justify-center space-x-4 '>
-                        <a href='https://www.linkedin.com/in/mariana-echeverria-9a543a1b4/' target='_blank'><Image className='h-6 mb-3' src="images/linkedin.png" alt="LinkedIn Logo" /></a>
-                        <a href='https://github.com/mariech5071' target='_blank'><Image className='h-6 mb-3' src="images/github.png" alt="GitHub Logo" /></a>
+                        <a href='https://www.linkedin.com/in/mariana-echeverria-9a543a1b4/' target='_blank'><Image className='h-6 mb-3' src="images/linkedin.png" alt="LinkedIn Logo"  width='200' height='200'/></a>
+                        <a href='https://github.com/mariech5071' target='_blank'><Image className='h-6 mb-3' src="images/github.png" alt="GitHub Logo"  width='200' height='200'/></a>
                     </div>
                 </div>
         </div>

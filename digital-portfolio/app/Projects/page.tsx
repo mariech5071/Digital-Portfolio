@@ -59,7 +59,7 @@ const Projects = () => {
                         <motion.p className="font-medium mt-3" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}>
                         Here is project 1
                         </motion.p>
-                            <motion.button className="w-8 h-8 bg-white rounded-full flex items-center justify-center" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}>
+                           <motion.button className="w-8 h-8 bg-white rounded-full flex items-center justify-center" initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="black" className="w-4 h-4">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                 </svg>
@@ -110,8 +110,8 @@ const Projects = () => {
                     <p className='text-center'>Mariana Echeverria</p>
                     <p className='text-center'>Copyright © 2023 Mariana Echeverria. All rights reserved</p>
                     <div className='flex items-center justify-center space-x-4 '>
-                        <Image className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo" />
-                        <Image className='h-6 mb-2' src="images/github.png" alt="LinkedIn Logo" />
+                        <Image className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo"  width='200' height='200'/>
+                        <Image className='h-6 mb-2' src="images/github.png" alt="LinkedIn Logo"  width='200' height='200'/>
                     </div>
                 </div>
         </div>
