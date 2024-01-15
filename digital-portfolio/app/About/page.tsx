@@ -15,7 +15,7 @@ const About = () => {
                 </div>
             <div id='about' className=' flex flex-col sm:flex-row justify-center items-center py-4'>
                 <motion.div id='firstDiv' className='w-full sm:w-1/2 p-4 order-last sm:order-first' initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}>
-                    <Image src="/images/Profile.png" alt="About" className="h-80 rounded-lg mx-auto"/>
+                    <Image src="/images/Profile.png" alt="About" className="h-80 w-80 rounded-lg mx-auto"/>
                 </motion.div>
                 <motion.div className='w-full sm:w-1/2 p-4' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eros sed lorem rutrum, at posuere lorem tincidunt. Nullam.
@@ -42,8 +42,8 @@ const About = () => {
                     <p className='text-center'>Mariana Echeverria</p>
                     <p className='text-center'>Copyright © 2023 Mariana Echeverria. All rights reserved</p>
                     <div className='flex items-center justify-center space-x-4 '>
-                        <Image className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo"  width='200' height='200'/>
-                        <Image className='h-6 mb-2' src="images/github.png" alt="LinkedIn Logo"  width='200' height='200'/>
+                        <Image className='h-6 mb-2' src="images/linkedin.png" alt="GitHub Logo" />
+                        <Image className='h-6 mb-2' src="images/github.png" alt="LinkedIn Logo" />
                     </div>
                 </div>
         </div>
