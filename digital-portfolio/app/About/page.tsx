@@ -15,7 +15,7 @@ const About = () => {
                 </div>
             <div id='about' className=' flex flex-col sm:flex-row justify-center items-center py-4'>
                 <motion.div id='firstDiv' className='w-full sm:w-1/2 p-4 order-last sm:order-first' initial={{ opacity: 0 }} animate={{ opacity: 1}} transition={{ duration: 0.5 }}>
-                    <Image src="/images/Profile.png" alt="About" className="h-80 rounded-lg mx-auto" width='200' height='200'/>
+                    <Image src="/images/Profile.png" alt="About" className="h-80 rounded-lg mx-auto"/>
                 </motion.div>
                 <motion.div className='w-full sm:w-1/2 p-4' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }}>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod eros sed lorem rutrum, at posuere lorem tincidunt. Nullam.

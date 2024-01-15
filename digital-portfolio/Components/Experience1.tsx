@@ -26,11 +26,11 @@ const Experience1 = () => {
                     </div>
                     <p className='ml-48 px-3 border-l border-black'>I&apos;ve acquired fundamental knowledge crucial for crafting exceptional web pages and working as a web developer through accessible online courses on FreeCodeAcademy and Udemy. This has led to the creation of several business landing pages using React and Next.js, along with personal projects integrating APIs. Proficiently managed tools include:</p>
                     <div className="flex justify-center space-x-4">
-                        <Image src="/images/reactjs.png" alt="ReactJS" className="w-10 h-10 object-contain"  width='200' height='200'/>
-                        <Image src="/images/nextjs.png" alt="NextJS" className="w-10 h-10 object-contain"  width='200' height='200' />
-                        <Image src="/images/tailwindcss.png" alt="Tailwindcss" className="h-10 object-contain"  width='200' height='200'/>
-                        <Image src="/images/javascript.png" alt="Javascript" className="w-10 h-10 object-contain"  width='200' height='200'/>
-                        <Image src="/images/css.png" alt="CSS" className="w-10 h-10 object-contain"  width='200' height='200'/>
+                        <Image src="/images/reactjs.png" alt="ReactJS" className="w-10 h-10 object-contain" />
+                        <Image src="/images/nextjs.png" alt="NextJS" className="w-10 h-10 object-contain"  />
+                        <Image src="/images/tailwindcss.png" alt="Tailwindcss" className="h-10 object-contain"/>
+                        <Image src="/images/javascript.png" alt="Javascript" className="w-10 h-10 object-contain"/>
+                        <Image src="/images/css.png" alt="CSS" className="w-10 h-10 object-contain"/>
                     </div>
                     <div className="flex items-center">
                         <p className="font-bold mt-4">Jun 2022 - Dec 2022</p>
