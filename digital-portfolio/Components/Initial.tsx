@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 
 const Initial = () => {
     return (
@@ -9,7 +9,7 @@ const Initial = () => {
                     <p className='text-2xl p-6 ml-9'>Front end programmer seeking to create the best web pages for companies. I&apos;m 25 and living in Costa Rica.</p>
                 </div>
                 <div>
-                    <Image src='/images/Profile.png' className='rounded-full object-cover z-10 mt-4 h-96 w-96' alt='profile' width='96' height='96'></Image>
+                    <img src='/images/Profile.png' className='rounded-full object-cover z-10 mt-4 h-96 w-96' alt='profile' width='96' height='96'></img>
                 </div>
             </div> 
         </div>
