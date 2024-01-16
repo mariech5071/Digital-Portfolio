@@ -9,9 +9,9 @@ const Projects1 = () => {
             <h1 className='mx-auto text-center mb-4 pt-6'>
                 Projects
             </h1>
-            <div className="flex flex-col sm:flex-row sm:space-x-20 justify-center items-center space-y-8 sm:space-y-0 pb-6">
+            <div className="flex flex-col sm:flex-row sm:space-x-20 justify-center items-center space-y-8 sm:space-y-0 pb-6 mx-3">
                 <div className="w-full sm:w-1/2 xl:w-1/4" id='img1'>
-                <motion.img whileHover={{ scale: 1.1 }} src="/images/Arcane-studio.png" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-3 rounded-lg"/>
+                <motion.img whileHover={{ scale: 1.1 }} src="/images/Arcane-studio.png" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg"/>
                     <div className="flex items-center justify-between">
                     <p className="font-medium mt-3">
                     Here is project 1
@@ -24,7 +24,7 @@ const Projects1 = () => {
                     </div>
                 </div>
                 <div className="w-full sm:w-1/2 xl:w-1/4" id='img2'>
-                <motion.img whileHover={{ scale: 1.1 }} src="/images/Arcane-studio.png" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-3 rounded-lg"/>
+                <motion.img whileHover={{ scale: 1.1 }} src="/images/Arcane-studio.png" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg"/>
                     <div className="flex items-center justify-between">
                     <p className="font-medium mt-3">
                     Landing page for Arcane Studios
@@ -37,7 +37,7 @@ const Projects1 = () => {
                     </div>
                 </div>
                 <div className="w-full sm:w-1/2 xl:w-1/4" id='img3'>
-                <motion.img whileHover={{ scale: 1.1 }} src="/images/Arcane-studio.png" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-3 rounded-lg"/>
+                <motion.img whileHover={{ scale: 1.1 }} src="/images/Arcane-studio.png" alt="Project 1" className="w-full h-48 sm:h-48 object-contain mx-auto rounded-lg"/>
                     <div className="flex items-center justify-between">
                     <p className="font-medium mt-3">
                     Here is project 1
